@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap");
+
+body {
+  background-color:#110038
+}
+
+.head{
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+#logo_n {
+  display: flex;
+}
+
+#logo_d {
+  display: none;
+}
+
+/* ------------------------------------------------SECCION-1------------------------------------------------------- */
+
+.seccion-1 .btns button {
+  color: #FFFFFF;
+  background: #EE3EFE;
+  box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.seccion-1 .btns .btn-btn-create-choice span a {
+  color: #FFFFFF;
+}
+
+.seccion-1 .btns .my-gifos {
+  color: #FFFFFF;
+}
+
+.seccion-1 .btns button:hover {
+ background-color: #CE36DB; 
+}
+
+.seccion-1 .btns .my-gifos:hover {
+  outline-color: #FFFFFF;
+}
+
+#day, #night {
+  background: #CCCCCC;
+}
+
+#day:hover, 
+#night:hover {
+  background: #2E32FB;
+  border: 1px solid rgba(51,53,143,0.20);
+}
+
+#day a:hover,
+#night a:hover {
+  color: #FFFFFF;
+}
+
+/* ------------------------------------- SECCION-2--------------------------- */
+
+.seccion-2 {
+  background: #B4B4B4;
+  box-shadow: inset -2px -2px 0 0 #8F8F8F, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.seccion-2 .bar-search {
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+ #submit_searching {
+  color: #8F8F8F;
+  background: #B4B4B4;
+}
+
+/* ------------------------------SECCION-3------------------------------------------------- */
+
+.sugerencias-block .content-gif {
+  background: #B4B4B4;
+  box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sugerencias-block .content-gif .content-gif-header {
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.sugerencias-block-result button {
+  background: #2E32FB;
+  box-shadow: inset -2px -2px 0 0 #2124B3, inset 2px 2px 0 0 #FFFFFF;  
+}
+
+/* ------------------------------------SECCION-4---------------------------------------------------- */
+
+.seccion-4 .tendencias-block-text {
+  border: 1px solid #2E32FB;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #110038;
+}
+
+.tendencia-block-result .img_trending {
+  background: #B4B4B4;
+  box-shadow: inset -2px -2px 0 0 #5C5C5C, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.tendencia-block-result .tags_hover {
+  color: #FFFFFF;
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);  
+}
+
+/************************************STYLE-CREAR-GUIFOS******************************************/
+
+.seccion-2 .upload .title1 {
+  background-image: linear-gradient(270deg, #EE3EFE 0%, #2E32FB 100%);
+}
+
+.btns-cancelar-comenzar #btn_cancel1 {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.btns-cancelar-comenzar #btn_begin {
+  background: #CE36DB;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.btn-cont-capturar .btn-camara {
+  color: #FFFFFF;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.btn-cont-capturar .btn-capturar {
+  color: #FFFFFF;
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.progress-bar1 {
+  background: #EE3EFE;
+}
+
+#btn_prewiev,
+#btn_action {
+  color: #FFFFFF;
+  background: #110038;
+  border: 1px solid #B4B4B4;
+  box-shadow: inset -1px -1px 0 0 #5C5C5C, inset 1px 1px 0 0 #FFF4FD;
+}
+
+.btn-repetir a{
+  color: #FFFFFF;
+}
+
+.btn-repetir:hover,
+.btn-subir:hover {
+  background: #F0E5EE;
+  outline-style: dotted;
+  outline-offset: -3.5px;
+  outline-width: thin;
+  outline-color: #FFFFFF;
+}
+
+.progress-bar2 {
+  background: #EE3EFE;
+}
+
+.btn-listo2 {
+  background: #EE3EFE;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #A72CB3, inset 1px 1px 0 0 #FFFFFF;
+  }

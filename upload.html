@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" href="assets/globe_img.png">
+    <link  rel="stylesheet" type="text/css" href="./style/all.css">
+    <link id="themes" rel="stylesheet" type="text/css" href="./style/style_day.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/RecordRTC/5.5.8/RecordRTC.js"></script>
+    <title>CreateGif</title>
+</head>
+<body class="theme-day">
+    <header class="head">
+        <h1>¡Bienvenidos/as a Guifos.com! ------Donde los gifd están.////// Números de visitas: 12.765.803</h1>
+    </header>
+    
+    <main class="seccion-total" id="seccion-total">
+        <section class="seccion-1" id="seccion_uno"> 
+            <div class="elements" id="elements">     
+                <a class="back2"><img id="back_arrow" src="assets/arrow.svg" alt="arrow" ></a>      
+                <img class="logo" id="logo-day" src="assets/gifOF_logo.png" alt="logo inicial">
+                <img class="logo-dark" id="logo-dark" src="assets/gifOF_logo_dark.png" alt="logo inicial">
+            </div>
+        </section>
+                          
+        <section class="seccion-2" id="seccion_dos">
+            <div class="upload" id="upload">
+                <div class="tittle" id="title">
+                    <p class="title1"><b>Crear Guifos</b>
+                     </p>
+                </div>
+                <div class="instrucciones-total" id="instrucciones_total">
+                    <div class="sub-title" id="sub_title">
+                        <img class="img-windows" src="assets/window-img.png" alt="">
+                        <p class="text"><b>Aquí podrás crear tus propios guifos</b></p>
+                    </div>
+                    <div class="paso-a-paso" id="paso_a_paso">
+                        <p>Crear tu <em><strong>guifo</strong></em> es muy fácil, graba cualquier imagen con tu cámara y obtén guifos
+                            personalizados. Los pasos para crear tu guifo son:</p>
+                         
+                            <p><strong>1)</strong> Dar permisos de acceso a la cámara (sólo por el tiempo de uso)</p>
+                         
+                            <p><strong>2)</strong> Capturar tu momento guifo</p>
+                      
+                            <p><strong>3)</strong> Revisar el momento</p>
+                         
+                            <p><strong>4)</strong> Listo para subir y compartir!</p>
+                            <br>
+                             ¿Quieres comenzar a crear tu <em><strong>guifo</strong></em> ahora?
+                
+                    </div>
+                    <div class="btns-cancelar-comenzar">
+                        <button class="btn-upload" id="btn_cancel1">Cancelar</button>
+                        <button class="btn-upload" id="btn_begin">Comenzar</button>
+                    </div>
+                </div>
+            </div>
+   
+            <div class="recorder-video">
+                <div class="cont-video">
+                    <video class="video" id="video"></video>
+                </div>
+                <div class="textos-cont">
+                    <img class="gif-creado" src="#" alt="" id="gif_creado">
+                </div>
+                <div class="text-up-gif" id="text_up_gif">
+                    <img id="globe_img" alt="glob" src="./assets/globe_img.png">
+                    <h2 id="sub_title1">Estamos subiendo tu guifo…</h2>
+                    <div class="barra-barra2">
+                        <div id="progress_bar2" class="progress-bar2"></div>
+                    </div>
+                    <p id="text_time">Tiempo restante: <span style="text-decoration: line-through;"> 38 años </span> algunos minutos</p>
+                <div>
+                    <a class="btn-canceled" id="btn_prewiev" href="upload.html">Cancelar</a>
+                </div>    
+                </div>
+            </div>
+            
+            <div class="btns-cont-record">
+                <div class="cont-ready">
+                </div>
+                <div class="btn-cont-capturar">
+                    <button class="btn-camara"><img class="img-camera" src="./assets/camera.svg" alt="" /></button>
+                    <button class="btn-capturar" id="btn_capturar">Capturar</button>
+                </div>
+                
+            </div>
+            
+            <div class="cont-preview">
+                <div class="barra-carga">
+                </div>
+            </div>    
+            
+            <div class="captur-gif" id="captur_gif">
+                
+                <div class='img-up-block'>
+                    <img id="img_up" src="#" alt="imgs">
+                </div>
+                <div class="gif-up">
+                    <p class="pgif-creado"><strong>Guifo creado con exito</strong></p> 
+                    <button class="btn-copy" id="btn_action">
+                        Copiar Enlace Guifo
+                    </button>
+                    <button class="btn-download" id="btn_action"  download="gif" id="btn_action">
+                        Descargar Guifo
+                    </button>
+                    <button class="btn-listo2">Listo
+                    </button>
+                </div> 
+            </div>
+        </section>
+           
+        <section class="seccion-3" id="seccion_tres">        
+            <div class="sugerencias-block">
+                <div class="sugerencias-block-text">
+                   <h2>Mis Guifos</h2>
+                </div>
+                <div class="sugerencias-block-result"></div>  
+            </div> 
+         </section>
+    </main>
+    <script src="js/createGif.js"></script>
+</body>    
+
+</html>

@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Chakra+Petch&display=swap");
+
+body {
+  background-color:#FFF4FD
+}
+
+.head{
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#logo_d {
+  display: flex;
+}
+
+#logo_n {
+  display: none;
+}
+
+/* ------------------------------------------------SECCION-1------------------------------------------------------- */
+
+.seccion-1 .btns button {
+  color: #110038;
+  background: #F7C9F3;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.seccion-1 .btns .my-gifos {
+  color: #110038;
+}
+
+.seccion-1 .btns button:hover {
+  background-color: #E6BBE2; 
+}
+
+.seccion-1 .btns .my-gifos:hover {
+  outline-color: #110038;
+}
+
+#day, #night {
+  background: #F0F0F0;
+}
+
+#day:hover, #night:hover {
+  background: #FFF4FD;
+  border: 1px solid #CCA6C9;
+}
+
+/* ------------------------------------- SECCION-2--------------------------- */
+
+.seccion-2 {
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.seccion-2 .bar-search {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+#submit_searching {
+  background: #E6E6E6;
+}
+
+/* ------------------------------SECCION-3------------------------------------------------- */
+
+.sugerencias-block .content-gif {
+  background: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.sugerencias-block .content-gif .content-gif-header {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.sugerencias-block-result button {
+  background: #4180F6;
+  box-shadow: inset -2px -2px 0 0 #284F99, inset 2px 2px 0 0 #FFFFFF;
+}
+
+/*-----------------------------------SECCION-4------------------------------------------------*/
+
+.seccion-4 .tendencias-block-text {
+  background: #FFFAFE;
+  border: 1px solid #E6BBE2;
+  box-shadow: inset -2px -2px 0 0 #E6DCE4, inset 2px 2px 0 0 #80687D;
+}
+
+.tendencia-block-result .img_trending {
+  background-color: #E6E6E6;
+  box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+}
+
+.tendencia-block-result .tags_hover {
+  color: #FFFFFF;
+  background: #E6E6E6;
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+/************************************STYLE-CREAR-GUIFOS******************************************/
+
+.seccion-2 .upload .title1 {
+  background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+}
+
+.btns-cancelar-comenzar #btn_cancel1 {
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF; 
+}
+
+.btns-cancelar-comenzar #btn_begin {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.btn-cont-capturar .btn-camara {
+  color: #110038;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.btn-cont-capturar .btn-capturar {
+  color: #110038;
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.progress-bar1 {
+  background: #F7C9F3;
+}
+
+#btn_prewiev, 
+#btn_action {
+  color: #110038;
+  background: #FFF4FD;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
+
+.btn-repetir{
+  color: #110038;
+}
+
+.btn-subir {
+  background: #F7C9F3;
+  margin-left: 14px;
+}
+
+.btn-repetir:hover {
+  background: #F0E5EE;
+}
+
+.progress-bar2 {
+  background: #F7C9F3;
+}
+
+.btn-listo2 {
+  background: #F7C9F3;
+  border: 1px solid #110038;
+  box-shadow: inset -1px -1px 0 0 #997D97, inset 1px 1px 0 0 #FFFFFF;
+}
